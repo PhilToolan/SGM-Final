@@ -1,0 +1,283 @@
+{% load i18n %}
+
+{% load static %}
+{% get_language_info for LANGUAGE_CODE as lang %}
+
+
+<DOCTYPE html>
+  <html>
+    <head>
+      <meta charset= "utf-8">
+      <title>Travel Ireland Proj</title>
+       <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/g13.css' %}">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	<script>function toggleSidebar(){
+  document.getElementById("sidebar").classList.toggle('active');}</script>
+    </head>  
+    <body>
+
+      {% if lang.code == "en" %}
+	<div id="sidebar">
+    <div class="toggle-btn" onclick="toggleSidebar()">
+  <span></span>
+  <span></span>
+  <span></span>
+  <h1>Group 13</h1>
+    </div>
+    <ul>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/en/g13/">{% trans "Home"%}</a></li>
+        <li><a class="dropdown-item" href="{% url 'lahinch' %}">{% trans "Lahinch"%}</a></li>
+        <li><a class="dropdown-item" href="{% url 'bally' %}">{% trans "Ballybunnion"%}</a></li>
+        <li><a class="dropdown-item" href="{% url 'bun' %}">{% trans "Bundoran"%}</a></li>
+        <li><a class="dropdown-item" href="{% url 'strand' %}">{% trans "Strandhill"%}</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/de/g13/bell">{% trans "German"%}</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/pl/g13/bell">{% trans "Polish"%}</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/ko/g13/bell">{% trans "Korean"%}</a></li>
+         
+            
+         
+  </div>
+  <div id="wrapper">
+    <header>
+      
+    </header>
+</div>
+      <div id= "main_body">
+        <h2>{% trans "Bellmullet, Mayo"%}</h2>
+        <hr>
+          <div class="image1_container">
+            <div class="container">
+              {% load static %}
+              <img src="{% static 'media/img/Bellmullet2.jpg' %}" alt="surfing" class="image"><!--Change photos to adapt to your persona-->
+              <div class="overlay">
+                <div class="text">{% trans "Surf accross Ireland"%}</div>
+              </div><!--Image: text overlay animation-->
+          </div>
+            <div id="image1_text">
+              <!--Change text to adapt to your page-->
+              <p>
+        {% blocktrans %}Belmullet and the greater Mullet Peninsula are areas of great natural beauty, and are fast becoming very popular among visitors to Ireland. The peninsula is 33km in length, but it narrows to just 400 metres in the region of Elly Bay. Elly Bay is located on the Mullett Peninsula, approximately 9km from Belmullet town in the North-Elly-BayWest of County Mayo. This area is renowned for its many uncrowded golden beaches and crystal clear waters.{% endblocktrans %}</p>
+        </div>
+      </div>
+        <hr>
+        
+        <div class="image1_container">
+          <div class="container">
+              {% load static %}
+              <img src="{% static 'media/img/Bellmullet4.jpg' %}" alt="surfing" class="image"><!--Change photos to adapt to your persona-->
+            <div class="overlay">
+              <div class="text">{% trans "Experience Irish Culture"%}</div><!--Image: text overlay animation-->
+            </div>
+          </div>
+           <div id="image_text">
+			  <p> {% blocktrans %}The marine life found at the place includes breeding waders and wintering wildfowl which reside at the natural habitats found in the region. It is accompanied by dune systems that stretch over the western coast of the Mullet Peninsula behind which lie large areas of machair and dune grassland. These natural geographical landforms add to the charm of the place and have made the beach one of tourists’ favourites. {% endblocktrans %}
+			  </p>
+		</div>
+        </div>
+        {% endif %}
+        {% if lang.code == "de" %}
+      <div id="sidebar">
+    <div class="toggle-btn" onclick="toggleSidebar()">
+  <span></span>
+  <span></span>
+  <span></span>
+  <h1>Group 13</h1>
+    </div>
+    <ul>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/de/g13/">{% trans "Home"%}</a></li>
+        <li><a class="dropdown-item" href="{% url 'lahinch' %}">{% trans "Lahinch"%}</a></li>
+        <li><a class="dropdown-item" href="{% url 'bally' %}">{% trans "Ballybunnion"%}</a></li>
+        <li><a class="dropdown-item" href="{% url 'bun' %}">{% trans "Bundoran"%}</a></li>
+        <li><a class="dropdown-item" href="{% url 'strand' %}">{% trans "Strandhill"%}</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/en/g13/bell">{% trans "English"%}</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/pl/g13/bell">{% trans "Polish"%}</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/ko/g13/bell">{% trans "Korean"%}</a></li>
+  </div>
+  <div id="wrapper">
+    <header>
+      
+    </header>
+</div>
+      <div id= "main_body">
+        <h2>{% trans "Bellmullet, Mayo"%}</h2>
+        <hr>
+          <div class="image1_container">
+            <div class="container">
+                {% load static %}
+                <img src="{% static 'media/img/Bellmullet2.jpg' %}" alt="surfing" class="image"><!--Change photos to adapt to your persona-->
+              <div class="overlay">
+                <div class="text">{% trans "Surf accross Ireland"%}</div>
+              </div><!--Image: text overlay animation-->
+          </div>
+            <div id="image1_text">
+              <!--Change text to adapt to your page-->
+              <p>
+        {% blocktrans %}Belmullet and the greater Mullet Peninsula are areas of great natural beauty, and are fast becoming very popular among visitors to Ireland. The peninsula is 33km in length, but it narrows to just 400 metres in the region of Elly Bay. Elly Bay is located on the Mullett Peninsula, approximately 9km from Belmullet town in the North-Elly-BayWest of County Mayo. This area is renowned for its many uncrowded golden beaches and crystal clear waters. {% endblocktrans %}</p>
+        </div>
+      </div>
+        <hr>
+        
+        <div class="image1_container">
+          <div class="container">
+              {% load static %}
+              <img src="{% static 'media/img/Bellmullet4.jpg' %}" alt="surfing" class="image"><!--Change photos to adapt to your persona-->
+            <div class="overlay">
+              <div class="text">{% trans "Experience Irish Culture"%}</div><!--Image: text overlay animation-->
+            </div>
+          </div>
+           <div id="image_text">
+			  <p> {% blocktrans %}The marine life found at the place includes breeding waders and wintering wildfowl which reside at the natural habitats found in the region. It is accompanied by dune systems that stretch over the western coast of the Mullet Peninsula behind which lie large areas of machair and dune grassland. These natural geographical landforms add to the charm of the place and have made the beach one of tourists’ favourites. {% endblocktrans %}
+			  </p>
+		</div>
+        </div>
+        {% endif %}
+        {% if lang.code == "pl" %}
+		 <div id="wrapper">
+    <header>
+      
+    </header>
+	<nav>
+          <ul class = "main_menu">
+            <li><a href="http://127.0.0.1:8000/pl/g13/">{% trans "Home"%}</a></li>
+      <li><a  href="{% url 'lahinch' %}">{% trans "Lahinch"%}</a></li>
+      <li><a  href="{% url 'bally' %}">{% trans "Ballybunnion"%}</a></li>
+      <li><a href="{% url 'bun' %}">{% trans "Bundoran"%}</a></li>
+      <li><a href="{% url 'strand' %}">{% trans "Strandhill"%}</a></li>
+	  <li><a  href="http://127.0.0.1:8000/en/g13/bell">{% trans "English"%}</a></li>
+	  <li><a  href="http://127.0.0.1:8000/de/g13/bell">{% trans "German"%}</a></li>
+	  <li><a  href="http://127.0.0.1:8000/ko/g13/bell">{% trans "Korean"%}</a></li>
+          </ul>
+        </nav>
+      </div>
+        <div id= "main_body">
+          <h2>{% trans "Bellmullet, Mayo"%}</h2>
+          <hr>
+            <div class="polskcontainer2">
+            <div class="containerpl">
+                {% load static %}
+                <img src="{% static 'media/img/Bellmullet2.jpg' %}" alt="surfing" class="imagepl1"><!--Change photos to adapt to your persona-->
+              <div class="overlay">
+                <div class="text">{% trans "Surf accross Ireland"%}</div>
+              </div><!--Image: text overlay animation-->
+          </div>
+            <div id="image1_textpl">
+              <!--Change text to adapt to your page-->
+              <p>
+        {% blocktrans %}Belmullet and the greater Mullet Peninsula are areas of great natural beauty, and are fast becoming very popular among visitors to Ireland. The peninsula is 33km in length, but it narrows to just 400 metres in the region of Elly Bay. Elly Bay is located on the Mullett Peninsula, approximately 9km from Belmullet town in the North-Elly-BayWest of County Mayo. This area is renowned for its many uncrowded golden beaches and crystal clear waters.{% endblocktrans %}</p>
+        </div>
+      </div>
+        <hr>
+        
+        <div class="polskcontainer">
+          <div class="containerpl">
+              {% load static %}
+              <img src="{% static 'media/img/Bellmullet4.jpg' %}" alt="surfing" class="imagepl2"><!--Change photos to adapt to your persona-->
+           <div id="image_textpl">
+			  <p> {% blocktrans %}The marine life found at the place includes breeding waders and wintering wildfowl which reside at the natural habitats found in the region. It is accompanied by dune systems that stretch over the western coast of the Mullet Peninsula behind which lie large areas of machair and dune grassland. These natural geographical landforms add to the charm of the place and have made the beach one of tourists’ favourites. {% endblocktrans %}
+			  </p>
+		</div>
+        </div>
+        {% endif %}
+        {% if lang.code == "ko" %}
+		<div id="wrapper">
+    <header>
+      
+    </header>
+	<nav>
+          <ul class = "main_menu">
+            <li><a href="http://127.0.0.1:8000/ko/g13/">{% trans "Home"%}</a></li>
+      <li><a  href="{% url 'lahinch' %}">{% trans "Lahinch"%}</a></li>
+      <li><a  href="{% url 'bally' %}">{% trans "Ballybunnion"%}</a></li>
+      <li><a href="{% url 'bun' %}">{% trans "Bundoran"%}</a></li>
+      <li><a href="{% url 'strand' %}">{% trans "Strandhill"%}</a></li>
+	  <li><a  href="http://127.0.0.1:8000/en/g13/bell">{% trans "English"%}</a></li>
+	  <li><a  href="http://127.0.0.1:8000/de/g13/bell">{% trans "German"%}</a></li>
+	  <li><a  href="http://127.0.0.1:8000/pl/g13/bell">{% trans "Polish"%}</a></li>
+          </ul>
+        </nav>
+      </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="{% static 'media/img/sunset.jpeg' %}" alt="First slide" height="600" width="800">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="{% static 'media/img/beach.jpg' %}" alt="Second slide" height="600" width="800">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="{% static 'media/img/surfer.jpeg' %}" alt="Third slide" height="600" width="800">
+          </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">{% trans "Previous" %}</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">{% trans "Next" %}</span>
+          </a>
+        </div>
+        <hr/>
+      
+      
+        <hr/>
+        <div class="card-group">
+          <a  href="pg1.html">
+           <img class="card-img-top" src="{% static 'media/img/card1.jpg' %}" alt="Card image cap" height="600" width="200" href="pg1.html" style="margin-left: 10px;" >
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">{% trans "Go Explore" %}</h5>
+            <p class="card-text">{% blocktrans %} The marine life found at the place includes breeding waders and wintering wildfowl which reside at the natural habitats found in the region. It is accompanied by dune systems that stretch over the western coast of the Mullet Peninsula behind which lie large areas of machair and dune grassland. These natural geographical landforms add to the charm of the place and have made the beach one of tourists’ favourites. {% endblocktrans %} </p>
+          </div>
+          </div>
+          <hr/>
+        <div class="card-group">
+          <a  href="pg1.html">
+           <img class="card-img-top" src="{% static 'media/img/Bellmullet2.jpg' %}" alt="Card image cap" height="600" width="200" href="pg1.html" style="margin-left: 20px;">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title" style="margin-left: 20px;" >{% trans "Surf Across Ireland"%}</h5>
+            <p class="card-text" style="margin-left: 40px;">{% blocktrans %}Belmullet and the greater Mullet Peninsula are areas of great natural beauty, and are fast becoming very popular among visitors to Ireland. The peninsula is 33km in length, but it narrows to just 400 metres in the region of Elly Bay. Elly Bay is located on the Mullett Peninsula, approximately 9km from Belmullet town in the North-Elly-BayWest of County Mayo. This area is renowned for its many uncrowded golden beaches and crystal clear waters. The bay is also of international ecological importance because of the diverse habitat types found in the area. It is a clean sheltered beach, ideal from bathing, swimming, surfing and other water sports.{% endblocktrans %}
+        </p>
+          </div>
+          </div>
+          
+        <hr/>
+        <div class="card-group">
+          <a  href="pg1.html">
+           <img class="card-img-top" src="{% static 'media/img/Bellmullet4.jpg' %}" alt="Card image cap" height="600" width="200" href="pg1.html" style="margin-left: 20px;">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title" style="margin-left: 20px;">{% trans "Experience Irish Culture"%}</h5>
+            <p class="card-text" style="margin-left: 40px;"></p>
+          </div>
+          
+          </div>
+          </div>
+         
+        {% endif %}
+		
+        <div class="footer">
+		<!-- Add font awesome icons -->
+		<a href="http://facebook.com" class="fa fa-facebook"></a>
+		<a href="http://twitter.com" class="fa fa-twitter"></a>
+		<a href="http://instagram.com" class="fa fa-instagram"></a>
+    	<a href="http://youtube.com" class="fa fa-youtube"></a>
+   </div>
+    	<p class="bottom"></p>
+        </body>
+
+      </html>
+    </DOCTYPE >
+

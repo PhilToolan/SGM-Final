@@ -1,0 +1,340 @@
+
+#sidebar{
+  position:absolute;
+  width:190px;
+  height:1250px;
+  background-color:#151719;
+  left:-200px;
+  transition:all 500ms linear;
+}
+#sidebar.active{
+  left:0px;
+}
+#sidebar ul li{
+  color:rgba(230,230,230,0.9);
+  list-style:none;
+  padding:40px 10px;
+  border-bottom:1px solid rgba(100,100,100,0.3);
+}
+#sidebar ul li a{
+  color:rgba(230,230,230,0.9);
+  list-style:none;
+  padding:40px 10px;
+  border-bottom:1px solid rgba(100,100,100,0.3);
+}
+#sidebar .toggle-btn{
+  position:absolute;
+  left:230px;
+  top:10px;
+}
+#sidebar .toggle-btn span{
+  display:block;
+  width:30px;
+  height:5px;
+  background: #151719;
+  margin:5px 0px;
+}
+
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+
+body {
+  background-color: #DADEDF;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #151719;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+  position: absolute;
+  top:30px;
+}
+
+#main_body{
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 32px;
+}
+#wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #29AB87;
+  padding: 32px;
+}
+
+header {
+  background-color: #29AB87;
+  height: 150px;
+  padding: 5px;
+
+}
+
+.main_menu{
+  padding: 5px 0 5px 0;
+  text-align: center;
+  line-height: 20px;
+  background-color:#474747 
+
+}
+
+ul.main_menu{
+  margin-top: 15px;
+}
+
+.main_menu li{
+  display: inline;
+  padding: 0 10px 0 10px;
+  font-size: 16px;
+
+}
+
+.main_menu a{
+  text-decoration:none;
+  color:white;
+  padding:8px;
+  font-family: "Merriweather", serif;
+}
+.main_menu a:hover{
+  background-color: #ddd;
+  color: black;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  background-color :white;
+}
+
+.container2 {
+  position: relative;
+  width: 50%;
+  background-color :white;
+}
+
+.image {
+  border-radius:8px;
+  text-align:right;
+  display: block;
+  width: 50%;
+  height: 30%;
+}
+.image2 {
+  border-radius:8px;
+  text-align:right;
+  display: block;
+  width: 50%;
+  height: 30%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #29AB87;
+  overflow: hidden;
+  width: 20%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+  width: 50%;
+}
+.container2:hover .overlay {
+  height: 100%;
+  width: 50%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#container{
+  float : left;
+  width: 50px;
+  background: white;
+}
+#container2{
+  float : left;
+  width: 50px;
+  background: white;
+}
+
+
+#image1_text p{
+  position: absolute;
+  left:52%;
+  top:325px;
+  float:right;
+  width: 24%;
+}
+
+#image_text p{
+  position: absolute;
+  left:52%;
+  top:650px;
+  float:right;
+  width: 24%;
+}
+
+/*
+.footer{
+  max-width: 100%;
+  margin: 0 auto;
+  left: 0;
+  bottom: 0;
+  height: 10%;
+  background-color: #29AB87;
+  color: white;
+  text-align: center;
+}
+*/
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* Youtube */
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+.title {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: grey;
+  border: 2px solid;
+  text-align: center;
+}
+
+
+/* Rounded Buttons */
+/* height: 30px; */
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.footer {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #29AB87;
+  padding: 32px;
+}
+
+#box_one{
+  color:red;
+}
+
+.column img {
+  margin-top: 8px;
+  float: right;
+  height: 20%;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+.row img{  
+  float: right
+}
+
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  float: left;
+  height: 100%;
+}
+
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.imagepl2{
+	float:right;
+	width:50%;
+	height:30%;
+	background:white;
+	
+}
+
+.imagepl1{
+	float:right;
+	width:50%;
+	height:30%;
+	background:white;
+	
+}
+
+
+

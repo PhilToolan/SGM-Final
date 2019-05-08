@@ -1,0 +1,751 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-06 11:40+0100\n"
+"PO-Revision-Date: 2019-05-06 11:42+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#: .\g13app\templates\Ballybunnion.html:34
+#: .\g13app\templates\Ballybunnion.html:109
+#: .\g13app\templates\Ballybunnion.html:179
+#: .\g13app\templates\Ballybunnion.html:244
+#: .\g13app\templates\Bellmullet.html:34 .\g13app\templates\Bellmullet.html:93
+#: .\g13app\templates\Bellmullet.html:147
+#: .\g13app\templates\Bellmullet.html:194 .\g13app\templates\Bundoran.html:34
+#: .\g13app\templates\Bundoran.html:100 .\g13app\templates\Bundoran.html:162
+#: .\g13app\templates\Bundoran.html:219 .\g13app\templates\Strandhill.html:34
+#: .\g13app\templates\Strandhill.html:99 .\g13app\templates\Strandhill.html:163
+#: .\g13app\templates\Strandhill.html:220 .\g13app\templates\index.html:34
+#: .\g13app\templates\index.html:100 .\g13app\templates\index.html:166
+#: .\g13app\templates\index.html:225 .\g13app\templates\lahinch.html:34
+#: .\g13app\templates\lahinch.html:103 .\g13app\templates\lahinch.html:170
+#: .\g13app\templates\lahinch.html:230
+msgid "Home"
+msgstr "홈"
+
+#: .\g13app\templates\Ballybunnion.html:35
+#: .\g13app\templates\Ballybunnion.html:110
+#: .\g13app\templates\Ballybunnion.html:180
+#: .\g13app\templates\Ballybunnion.html:245
+#: .\g13app\templates\Bellmullet.html:35 .\g13app\templates\Bellmullet.html:94
+#: .\g13app\templates\Bellmullet.html:148
+#: .\g13app\templates\Bellmullet.html:195 .\g13app\templates\Bundoran.html:35
+#: .\g13app\templates\Bundoran.html:101 .\g13app\templates\Bundoran.html:163
+#: .\g13app\templates\Bundoran.html:220 .\g13app\templates\Strandhill.html:35
+#: .\g13app\templates\Strandhill.html:100
+#: .\g13app\templates\Strandhill.html:164
+#: .\g13app\templates\Strandhill.html:221 .\g13app\templates\index.html:35
+#: .\g13app\templates\index.html:101 .\g13app\templates\index.html:167
+#: .\g13app\templates\index.html:226
+msgid "Lahinch"
+msgstr ""
+
+#: .\g13app\templates\Ballybunnion.html:36
+#: .\g13app\templates\Ballybunnion.html:111
+#: .\g13app\templates\Ballybunnion.html:181
+#: .\g13app\templates\Ballybunnion.html:246
+#: .\g13app\templates\Bellmullet.html:37 .\g13app\templates\Bellmullet.html:96
+#: .\g13app\templates\Bellmullet.html:150
+#: .\g13app\templates\Bellmullet.html:197 .\g13app\templates\Strandhill.html:37
+#: .\g13app\templates\Strandhill.html:102
+#: .\g13app\templates\Strandhill.html:166
+#: .\g13app\templates\Strandhill.html:223 .\g13app\templates\index.html:37
+#: .\g13app\templates\index.html:103 .\g13app\templates\index.html:169
+#: .\g13app\templates\index.html:228 .\g13app\templates\lahinch.html:36
+#: .\g13app\templates\lahinch.html:105 .\g13app\templates\lahinch.html:172
+#: .\g13app\templates\lahinch.html:232
+msgid "Bundoran"
+msgstr ""
+
+#: .\g13app\templates\Ballybunnion.html:37
+#: .\g13app\templates\Ballybunnion.html:112
+#: .\g13app\templates\Ballybunnion.html:182
+#: .\g13app\templates\Ballybunnion.html:247 .\g13app\templates\Bundoran.html:37
+#: .\g13app\templates\Bundoran.html:103 .\g13app\templates\Bundoran.html:165
+#: .\g13app\templates\Bundoran.html:222 .\g13app\templates\Strandhill.html:38
+#: .\g13app\templates\Strandhill.html:103
+#: .\g13app\templates\Strandhill.html:167
+#: .\g13app\templates\Strandhill.html:224 .\g13app\templates\index.html:38
+#: .\g13app\templates\index.html:104 .\g13app\templates\index.html:170
+#: .\g13app\templates\index.html:229 .\g13app\templates\lahinch.html:37
+#: .\g13app\templates\lahinch.html:106 .\g13app\templates\lahinch.html:173
+#: .\g13app\templates\lahinch.html:233
+msgid "Bellmullet"
+msgstr ""
+
+#: .\g13app\templates\Ballybunnion.html:38
+#: .\g13app\templates\Ballybunnion.html:113
+#: .\g13app\templates\Ballybunnion.html:183
+#: .\g13app\templates\Ballybunnion.html:248
+#: .\g13app\templates\Bellmullet.html:38 .\g13app\templates\Bellmullet.html:97
+#: .\g13app\templates\Bellmullet.html:151
+#: .\g13app\templates\Bellmullet.html:198 .\g13app\templates\Bundoran.html:38
+#: .\g13app\templates\Bundoran.html:104 .\g13app\templates\Bundoran.html:166
+#: .\g13app\templates\Bundoran.html:223 .\g13app\templates\Strandhill.html:39
+#: .\g13app\templates\Strandhill.html:104
+#: .\g13app\templates\Strandhill.html:168
+#: .\g13app\templates\Strandhill.html:225 .\g13app\templates\index.html:39
+#: .\g13app\templates\index.html:105 .\g13app\templates\index.html:171
+#: .\g13app\templates\index.html:230 .\g13app\templates\lahinch.html:38
+#: .\g13app\templates\lahinch.html:107 .\g13app\templates\lahinch.html:174
+#: .\g13app\templates\lahinch.html:234
+msgid "Strandhill"
+msgstr ""
+
+#: .\g13app\templates\Ballybunnion.html:39
+#: .\g13app\templates\Ballybunnion.html:185
+#: .\g13app\templates\Ballybunnion.html:250
+#: .\g13app\templates\Bellmullet.html:39 .\g13app\templates\Bellmullet.html:153
+#: .\g13app\templates\Bellmullet.html:200 .\g13app\templates\Bundoran.html:39
+#: .\g13app\templates\Bundoran.html:168 .\g13app\templates\Bundoran.html:225
+#: .\g13app\templates\Strandhill.html:40 .\g13app\templates\Strandhill.html:170
+#: .\g13app\templates\Strandhill.html:227 .\g13app\templates\index.html:40
+#: .\g13app\templates\index.html:173 .\g13app\templates\index.html:232
+#: .\g13app\templates\lahinch.html:39 .\g13app\templates\lahinch.html:176
+#: .\g13app\templates\lahinch.html:236 .\g13proj\settings.py:118
+msgid "German"
+msgstr "독일어 (Deutsch)"
+
+#: .\g13app\templates\Ballybunnion.html:40
+#: .\g13app\templates\Ballybunnion.html:115
+#: .\g13app\templates\Ballybunnion.html:251
+#: .\g13app\templates\Bellmullet.html:40 .\g13app\templates\Bellmullet.html:99
+#: .\g13app\templates\Bellmullet.html:201 .\g13app\templates\Bundoran.html:40
+#: .\g13app\templates\Bundoran.html:106 .\g13app\templates\Bundoran.html:226
+#: .\g13app\templates\Strandhill.html:41 .\g13app\templates\Strandhill.html:106
+#: .\g13app\templates\Strandhill.html:228 .\g13app\templates\index.html:41
+#: .\g13app\templates\index.html:107 .\g13app\templates\index.html:233
+#: .\g13app\templates\lahinch.html:40 .\g13app\templates\lahinch.html:109
+#: .\g13app\templates\lahinch.html:237 .\g13proj\settings.py:120
+msgid "Polish"
+msgstr "폴란드어 (Polskie)"
+
+#: .\g13app\templates\Ballybunnion.html:41
+#: .\g13app\templates\Ballybunnion.html:116
+#: .\g13app\templates\Ballybunnion.html:186
+#: .\g13app\templates\Bellmullet.html:41 .\g13app\templates\Bellmullet.html:100
+#: .\g13app\templates\Bellmullet.html:154 .\g13app\templates\Bundoran.html:41
+#: .\g13app\templates\Bundoran.html:107 .\g13app\templates\Bundoran.html:169
+#: .\g13app\templates\Strandhill.html:42 .\g13app\templates\Strandhill.html:107
+#: .\g13app\templates\Strandhill.html:171 .\g13app\templates\index.html:42
+#: .\g13app\templates\index.html:108 .\g13app\templates\index.html:174
+#: .\g13app\templates\lahinch.html:41 .\g13app\templates\lahinch.html:110
+#: .\g13app\templates\lahinch.html:177 .\g13proj\settings.py:119
+msgid "Korean"
+msgstr ""
+
+#: .\g13app\templates\Ballybunnion.html:52
+#: .\g13app\templates\Ballybunnion.html:124
+#: .\g13app\templates\Ballybunnion.html:191
+msgid "Welcome to Ballbunnion, Kerry"
+msgstr "발렌타인, 케리에 오신것을 환영 합니다"
+
+#: .\g13app\templates\Ballybunnion.html:59
+#: .\g13app\templates\Ballybunnion.html:131
+#: .\g13app\templates\Ballybunnion.html:198
+#: .\g13app\templates\Bellmullet.html:59 .\g13app\templates\Bellmullet.html:115
+#: .\g13app\templates\Bellmullet.html:166 .\g13app\templates\Bundoran.html:122
+#: .\g13app\templates\Bundoran.html:181 .\g13app\templates\Strandhill.html:60
+#: .\g13app\templates\Strandhill.html:122
+#: .\g13app\templates\Strandhill.html:183 .\g13app\templates\index.html:60
+#: .\g13app\templates\index.html:123 .\g13app\templates\index.html:186
+#: .\g13app\templates\lahinch.html:59 .\g13app\templates\lahinch.html:125
+#: .\g13app\templates\lahinch.html:189
+msgid "Surf accross Ireland"
+msgstr "아일랜드 전역의 서핑"
+
+#: .\g13app\templates\Ballybunnion.html:67
+#: .\g13app\templates\Ballybunnion.html:139
+#: .\g13app\templates\Ballybunnion.html:206
+msgid ""
+" For the last 20 years Ballybunion's South beach has been recognized as one "
+"of North Kerry's best surfing locations. \n"
+"\t\tIts picturesque landscape and world-class surf breaks will insure an "
+"unforgettable trip to Ballybunion!"
+msgstr ""
+"지난 20 년 동안, 발리 부 니 온의 사우스 비치는 노스 케리 최고의 서핑 장소 중 "
+"하나로 인정 받고 있습니다. \n"
+"\t\t아름 다운 풍경과 세계적 수준의 서핑 브레이크는 발리 부 니 온으로의 잊을 "
+"수 없는 여행을 보장 합니다!"
+
+#: .\g13app\templates\Ballybunnion.html:71
+#: .\g13app\templates\Ballybunnion.html:143
+#: .\g13app\templates\Ballybunnion.html:209
+msgid ""
+" Ballybunion has many pubs to choose from, each with their own unique "
+"atmosphere. \n"
+"\t\tYou can enjoy a quiet nightcap in a cosy setting, or lively music in "
+"excellent company. \n"
+"\t\tMany pubs also serve up superb lunches and evening meals, brought to "
+"your table by friendly, attentive staff. "
+msgstr ""
+"발리 부 니 온에는 다양 한 펍이 있으며, 각각 독특한 분위기를 지니고 있습니"
+"다. \n"
+"\t\t아늑한 분위기의 조용한 나이트 캡 또는 훌륭한 회사의 활기찬 음악을 즐기실 "
+"수 있습니다. \n"
+"\t\t많은 술집은 친절 하 고 세심 한 직원 들이 테이블에 가져다 주는 훌륭한 점심"
+"과 저녁 식사를 제공 합니다."
+
+#: .\g13app\templates\Ballybunnion.html:76
+#: .\g13app\templates\Ballybunnion.html:148
+#: .\g13app\templates\Ballybunnion.html:213
+msgid ""
+" There is top quality accommodation available in Ballybunion all year "
+"through. \n"
+"\t\tThe guest houses, hotels, and Bed and breakfasts are experienced and "
+"professional."
+msgstr ""
+"발리 부 니 온에서 최고의 품질의 숙박 시설을 제공 합니다. \n"
+"\t\t게스트 하우스, 호텔, 베드 앤 브렉퍼스트는 경험이 풍부 하 고 전문적입니다."
+
+#: .\g13app\templates\Ballybunnion.html:87
+#: .\g13app\templates\Ballybunnion.html:159
+#: .\g13app\templates\Ballybunnion.html:224
+#: .\g13app\templates\Ballybunnion.html:315
+#: .\g13app\templates\Bellmullet.html:75 .\g13app\templates\Bellmullet.html:131
+#: .\g13app\templates\Bellmullet.html:262 .\g13app\templates\Bundoran.html:81
+#: .\g13app\templates\Bundoran.html:145 .\g13app\templates\Strandhill.html:79
+#: .\g13app\templates\Strandhill.html:144
+#: .\g13app\templates\Strandhill.html:289 .\g13app\templates\index.html:80
+#: .\g13app\templates\index.html:147 .\g13app\templates\index.html:296
+#: .\g13app\templates\lahinch.html:83 .\g13app\templates\lahinch.html:149
+msgid "Experience Irish Culture"
+msgstr "아일랜드 문화 체험"
+
+#: .\g13app\templates\Ballybunnion.html:91
+#: .\g13app\templates\Ballybunnion.html:163
+#: .\g13app\templates\Ballybunnion.html:228
+msgid ""
+"Ballybunion has been named amongst the best of the best in terms of summer "
+"getaway destinations for surfing."
+msgstr ""
+"Ballybunion은 서핑을위한 여름 도망 목적지의 관점에서 최고 중 최고라고 명명되"
+"었습니다."
+
+#: .\g13app\templates\Ballybunnion.html:94
+#: .\g13app\templates\Ballybunnion.html:166
+#: .\g13app\templates\Ballybunnion.html:231
+msgid ""
+"The area has been ranked fifth best in the country as a surfing spot by "
+"leading surf \n"
+"\t\t\t\ttravel provider ‘surfholidays.com’ who ranked what they considered "
+"to be the best places to surf along Irish coasts & the ultimate getaway."
+msgstr ""
+"이 지역은 아일랜드 서핑 및 최고의 휴양지에서 서핑을하기에 가장 좋은 장소로 평"
+"가 된 서핑 여행 업체 'surfholidays.com'의 서핑 명소로서 전국에서 5 위를 차지"
+"했습니다."
+
+#: .\g13app\templates\Ballybunnion.html:114
+#: .\g13app\templates\Ballybunnion.html:184
+#: .\g13app\templates\Ballybunnion.html:249
+#: .\g13app\templates\Bellmullet.html:98 .\g13app\templates\Bellmullet.html:152
+#: .\g13app\templates\Bellmullet.html:199 .\g13app\templates\Bundoran.html:105
+#: .\g13app\templates\Bundoran.html:167 .\g13app\templates\Bundoran.html:224
+#: .\g13app\templates\Strandhill.html:105
+#: .\g13app\templates\Strandhill.html:169
+#: .\g13app\templates\Strandhill.html:226 .\g13app\templates\index.html:106
+#: .\g13app\templates\index.html:172 .\g13app\templates\index.html:231
+#: .\g13app\templates\lahinch.html:108 .\g13app\templates\lahinch.html:175
+#: .\g13app\templates\lahinch.html:235 .\g13proj\settings.py:117
+msgid "English"
+msgstr "영어 (English)"
+
+#: .\g13app\templates\Ballybunnion.html:274
+#: .\g13app\templates\Bellmullet.html:224 .\g13app\templates\Bundoran.html:249
+#: .\g13app\templates\Strandhill.html:251 .\g13app\templates\index.html:256
+#: .\g13app\templates\lahinch.html:260
+msgid "Previous"
+msgstr "이전"
+
+#: .\g13app\templates\Ballybunnion.html:278
+#: .\g13app\templates\Bellmullet.html:228 .\g13app\templates\Bundoran.html:253
+#: .\g13app\templates\Strandhill.html:255 .\g13app\templates\index.html:260
+#: .\g13app\templates\lahinch.html:264
+msgid "Next"
+msgstr "다음"
+
+#: .\g13app\templates\Ballybunnion.html:290
+#: .\g13app\templates\Bellmullet.html:240
+#: .\g13app\templates\Strandhill.html:267 .\g13app\templates\index.html:272
+#: .\g13app\templates\lahinch.html:276
+msgid "Go Explore"
+msgstr "탐색 이동"
+
+#: .\g13app\templates\Ballybunnion.html:291
+msgid ""
+"For the last 20 years Ballybunion's South beach has been recognized as one "
+"of North Kerry's best surfing locations. \n"
+"              Its picturesque landscape and world-class surf breaks will "
+"insure an unforgettable trip to Ballybunion!"
+msgstr ""
+"지난 20 년 동안, 발리 부 니 온의 사우스 비치는 노스 케리 최고의 서핑 장소 중 "
+"하나로 인정 받고 있습니다. \n"
+"\t\t아름 다운 풍경과 세계적 수준의 서핑 브레이크는 발리 부 니 온으로의 잊을 "
+"수 없는 여행을 보장 합니다!"
+
+#: .\g13app\templates\Ballybunnion.html:301
+msgid "Try something new"
+msgstr "새로운 것을 시도"
+
+#: .\g13app\templates\Ballybunnion.html:302
+msgid ""
+" Ballybunion has many pubs to choose from, each with their own unique "
+"atmosphere. \n"
+"              You can enjoy a quiet nightcap in a cosy setting, or lively "
+"music in excellent company. \n"
+"              Many pubs also serve up superb lunches and evening meals, "
+"brought to your table by friendly, attentive staff. "
+msgstr ""
+"발리 부 니 온에는 다양 한 펍이 있으며, 각각 독특한 분위기를 지니고 있습니"
+"다. \n"
+"\t\t아늑한 분위기의 조용한 나이트 캡 또는 훌륭한 회사의 활기찬 음악을 즐기실 "
+"수 있습니다. \n"
+"\t\t많은 술집은 친절 하 고 세심 한 직원 들이 테이블에 가져다 주는 훌륭한 점심"
+"과 저녁 식사를 제공 합니다."
+
+#: .\g13app\templates\Ballybunnion.html:316
+msgid ""
+" There is top quality accommodation available in Ballybunion all year "
+"through. \n"
+"              The guest houses, hotels, and Bed and breakfasts are "
+"experienced and professional."
+msgstr ""
+"발리 부 니 온에서 최고의 품질의 숙박 시설을 제공 합니다. \n"
+"              게스트 하우스, 호텔, 베드 앤 브렉퍼스트는 경험이 풍부 하 고 전"
+"문적입니다."
+
+#: .\g13app\templates\Bellmullet.html:36 .\g13app\templates\Bellmullet.html:95
+#: .\g13app\templates\Bellmullet.html:149
+#: .\g13app\templates\Bellmullet.html:196 .\g13app\templates\Bundoran.html:36
+#: .\g13app\templates\Bundoran.html:102 .\g13app\templates\Bundoran.html:164
+#: .\g13app\templates\Bundoran.html:221 .\g13app\templates\Strandhill.html:36
+#: .\g13app\templates\Strandhill.html:101
+#: .\g13app\templates\Strandhill.html:165
+#: .\g13app\templates\Strandhill.html:222 .\g13app\templates\index.html:36
+#: .\g13app\templates\index.html:102 .\g13app\templates\index.html:168
+#: .\g13app\templates\index.html:227 .\g13app\templates\lahinch.html:35
+#: .\g13app\templates\lahinch.html:104 .\g13app\templates\lahinch.html:171
+#: .\g13app\templates\lahinch.html:231
+msgid "Ballybunnion"
+msgstr ""
+
+#: .\g13app\templates\Bellmullet.html:52 .\g13app\templates\Bellmullet.html:108
+#: .\g13app\templates\Bellmullet.html:159
+msgid "Bellmullet, Mayo"
+msgstr ""
+
+#: .\g13app\templates\Bellmullet.html:65 .\g13app\templates\Bellmullet.html:172
+msgid ""
+"Belmullet and the greater Mullet Peninsula are areas of great natural "
+"beauty, and are fast becoming very popular among visitors to Ireland. The "
+"peninsula is 33km in length, but it narrows to just 400 metres in the region "
+"of Elly Bay. Elly Bay is located on the Mullett Peninsula, approximately 9km "
+"from Belmullet town in the North-Elly-BayWest of County Mayo. This area is "
+"renowned for its many uncrowded golden beaches and crystal clear waters."
+msgstr ""
+"벨 멀 렛과 그레이터 멀 렛 반도는 훌륭한 자연의 아름다움을 가진 지역으로, 아일"
+"랜드 방문객 들 사이에서 빠르게 인기를 끌고 있습니다. 페 닌 슐 라의 길이는 항"
+"공권 33km 이지만, 엘리 베이 지역에서 불과 400 미터 거리에 있습니다. 멀 렛 반"
+"도에 위치한 엘리 베이는, 메이 요 카운티의 북쪽 엘리-베이 서쪽에 있는 "
+"Belmullet 타운에서 약 9km 거리에 있습니다. 이 지역은 많은 혼잡 하지 않은 황금"
+"빛 해변과 맑은 바닷물로 유명 합니다."
+
+#: .\g13app\templates\Bellmullet.html:79 .\g13app\templates\Bellmullet.html:135
+#: .\g13app\templates\Bellmullet.html:182
+msgid ""
+"The marine life found at the place includes breeding waders and wintering "
+"wildfowl which reside at the natural habitats found in the region. It is "
+"accompanied by dune systems that stretch over the western coast of the "
+"Mullet Peninsula behind which lie large areas of machair and dune grassland. "
+"These natural geographical landforms add to the charm of the place and have "
+"made the beach one of tourists’ favourites. "
+msgstr ""
+"이 곳에서 발견 되는 해양 생물은 지역에서 발견 되는 자연 서식 지에 거주 하는 "
+"육 종 및 겨울의 야생 조류를 포함 합니다. 그것은 machair 나 모래 초원의 큰 영"
+"역을 거짓말 뒤에 물 렛 반도의 서쪽 해안을 통해 스트레칭 모래 시스템을 동반 한"
+"다. 이 자연 지리 지형 장소의 매력에 추가 하 고 관광객 ' 즐겨 찾기 중 하나 해"
+"변을 만들었습니다."
+
+#: .\g13app\templates\Bellmullet.html:121
+msgid ""
+"Belmullet and the greater Mullet Peninsula are areas of great natural "
+"beauty, and are fast becoming very popular among visitors to Ireland. The "
+"peninsula is 33km in length, but it narrows to just 400 metres in the region "
+"of Elly Bay. Elly Bay is located on the Mullett Peninsula, approximately 9km "
+"from Belmullet town in the North-Elly-BayWest of County Mayo. This area is "
+"renowned for its many uncrowded golden beaches and crystal clear waters. "
+msgstr ""
+"벨 멀 렛과 그레이터 멀 렛 반도는 훌륭한 자연의 아름다움을 가진 지역으로, 아일"
+"랜드 방문객 들 사이에서 빠르게 인기를 끌고 있습니다. 페 닌 슐 라의 길이는 항"
+"공권 33km 이지만, 엘리 베이 지역에서 불과 400 미터 거리에 있습니다. 멀 렛 반"
+"도에 위치한 엘리 베이는, 메이 요 카운티의 북쪽 엘리-베이 서쪽에 있는 "
+"Belmullet 타운에서 약 9km 거리에 있습니다. 이 지역은 많은 혼잡 하지 않은 황금"
+"빛 해변과 맑은 바닷물로 유명 합니다."
+
+#: .\g13app\templates\Bellmullet.html:241
+msgid ""
+" The marine life found at the place includes breeding waders and wintering "
+"wildfowl which reside at the natural habitats found in the region. It is "
+"accompanied by dune systems that stretch over the western coast of the "
+"Mullet Peninsula behind which lie large areas of machair and dune grassland. "
+"These natural geographical landforms add to the charm of the place and have "
+"made the beach one of tourists’ favourites. "
+msgstr ""
+"이 곳에서 발견 되는 해양 생물은 지역에서 발견 되는 자연 서식 지에 거주 하는 "
+"육 종 및 겨울의 야생 조류를 포함 합니다. 그것은 machair 나 모래 초원의 큰 영"
+"역을 거짓말 뒤에 물 렛 반도의 서쪽 해안을 통해 스트레칭 모래 시스템을 동반 한"
+"다. 이 자연 지리 지형 장소의 매력에 추가 하 고 관광객 ' 즐겨 찾기 중 하나 해"
+"변을 만들었습니다."
+
+#: .\g13app\templates\Bellmullet.html:250
+#: .\g13app\templates\Strandhill.html:277 .\g13app\templates\index.html:282
+#: .\g13app\templates\lahinch.html:287
+msgid "Surf Across Ireland"
+msgstr "아일랜드 전역의 서핑"
+
+#: .\g13app\templates\Bellmullet.html:251
+msgid ""
+"Belmullet and the greater Mullet Peninsula are areas of great natural "
+"beauty, and are fast becoming very popular among visitors to Ireland. The "
+"peninsula is 33km in length, but it narrows to just 400 metres in the region "
+"of Elly Bay. Elly Bay is located on the Mullett Peninsula, approximately 9km "
+"from Belmullet town in the North-Elly-BayWest of County Mayo. This area is "
+"renowned for its many uncrowded golden beaches and crystal clear waters. The "
+"bay is also of international ecological importance because of the diverse "
+"habitat types found in the area. It is a clean sheltered beach, ideal from "
+"bathing, swimming, surfing and other water sports."
+msgstr ""
+"벨 멀 렛과 그레이터 멀 렛 반도는 훌륭한 자연의 아름다움을 가진 지역으로, 아일"
+"랜드 방문객 들 사이에서 빠르게 인기를 끌고 있습니다. 페 닌 슐 라의 길이는 항"
+"공권 33km 이지만, 엘리 베이 지역에서 불과 400 미터 거리에 있습니다. 멀 렛 반"
+"도에 위치한 엘리 베이는, 메이 요 카운티의 북쪽 엘리-베이 서쪽에 있는 "
+"Belmullet 타운에서 약 9km 거리에 있습니다. 이 지역은 많은 혼잡 하지 않은 황금"
+"빛 해변과 맑은 바닷물로 유명 합니다. 이 베이는이 지역에서 발견 되는 다양 한 "
+"서식 지 유형 때문에 국제적인 생태 적 중요성을 지니고 있습니다. 그것은 목욕, "
+"수영, 서핑 및 기타 수상 스포츠에서 이상적인 깨끗 하 게 보호 된 해변입니다."
+
+#: .\g13app\templates\Bundoran.html:52
+msgid "Welcome to Bundoran, Donegal!"
+msgstr "발렌타인, 케리에 오신것을 환영 합니다"
+
+#: .\g13app\templates\Bundoran.html:59 .\g13app\templates\Bundoran.html:265
+msgid "Experience the wild Atlantic"
+msgstr "아일랜드 문화 체험"
+
+#: .\g13app\templates\Bundoran.html:67 .\g13app\templates\Bundoran.html:130
+#: .\g13app\templates\Bundoran.html:188
+msgid "Bundoran offers one of Irelands largest beaches on the west coast."
+msgstr "Bundoran은 서해안에 아일랜드에서 가장 큰 해변 중 하나를 제공합니다."
+
+#: .\g13app\templates\Bundoran.html:68 .\g13app\templates\Bundoran.html:132
+#: .\g13app\templates\Bundoran.html:191
+msgid ""
+"Bundoran has even been in national geographic magazine for being 1 of the "
+"top 20 surfing towns on the planet."
+msgstr ""
+"분도 란 (Bundoran)은 지구상에서 가장 인기있는 20 개의 서핑 마을 중 하나 인 국"
+"가 지리학 잡지에 실렸다."
+
+#: .\g13app\templates\Bundoran.html:71 .\g13app\templates\Bundoran.html:135
+#: .\g13app\templates\Bundoran.html:194
+msgid ""
+"If you are looking for the best place to surf in Ireland, then look no "
+"further."
+msgstr ""
+"아일랜드 서핑을하기에 가장 좋은 곳을 찾고 있다면 더 이상 보지 마십시오."
+
+#: .\g13app\templates\Bundoran.html:86 .\g13app\templates\Bundoran.html:150
+#: .\g13app\templates\Bundoran.html:204
+msgid ""
+"When you are not surfing, Bundoran offers some of the finest hotels and best "
+"traditional Irish music around. Why not visit the surrounding countryside "
+"while you're here and see what Donegal has to offer you."
+msgstr ""
+"서핑을하지 않을 때 Bundoran은 최고의 호텔과 최고의 전통 아일랜드 음악을 제공"
+"합니다. 당신이 여기있는 동안 주변의 시골을 방문하여 도니 골 (Donegal)이 제공"
+"하는 것을보십시오."
+
+#: .\g13app\templates\Bundoran.html:115 .\g13app\templates\Bundoran.html:174
+#: .\g13app\templates\Strandhill.html:53 .\g13app\templates\Strandhill.html:115
+#: .\g13app\templates\Strandhill.html:176 .\g13app\templates\index.html:53
+#: .\g13app\templates\index.html:116 .\g13app\templates\index.html:179
+#: .\g13app\templates\lahinch.html:52 .\g13app\templates\lahinch.html:118
+#: .\g13app\templates\lahinch.html:182
+msgid "Welcome"
+msgstr "발렌타인, 케리에 오신것을 환영 합니다"
+
+#: .\g13app\templates\Bundoran.html:207
+msgid "The memories made here will be unforgettable."
+msgstr "여기서 만든 추억은 잊을 수 없을 것입니다."
+
+#: .\g13app\templates\Bundoran.html:266
+msgid ""
+"Ireland is waiting to be discovered. Enjoy the prime surfing location of "
+"Bundoran, Donegal. Surf with friends or the whole family, Bundoran surf "
+"company can help any and all beginners."
+msgstr ""
+"아일랜드는 발견되기를 기다리고 있습니다. Bundoran, Donegal의 주요 서핑 장소"
+"를 즐기십시오. Bundoran surf company는 친구들이나 온 가족과 함께 서핑을하면"
+"서 모든 초보자를 도울 수 있습니다."
+
+#: .\g13app\templates\Bundoran.html:275
+msgid "Experience Irish life"
+msgstr "아일랜드 문화 체험"
+
+#: .\g13app\templates\Bundoran.html:276
+msgid ""
+"Away from the beach, there is plenty for the family to do. Experience what "
+"the town has to offer while taking a walk or visit the local leisure centre "
+"for something different."
+msgstr ""
+"해변에서 벗어나 가족이 할 수있는 것들이 많이 있습니다. 산책을하거나 지역 레"
+"저 센터를 방문하는 동안 제공해야 할 것들을 경험해보십시오."
+
+#: .\g13app\templates\Bundoran.html:287
+msgid "Experience Donegal"
+msgstr "아일랜드 문화 체험"
+
+#: .\g13app\templates\Bundoran.html:288
+msgid ""
+"Bundoran is in the heart of Donegal, why not get out and vist some of the "
+"incredible scenery of Donegal and Sligo. Your trip to Bundoran will "
+"definitly be an unforgettable one."
+msgstr ""
+"Bundoran은 Donegal의 중심부에 있으며, 나가서 Donegal과 Sligo의 놀라운 경관을 "
+"감상하십시오. 분도 란 (Bundoran)으로의 여행은 잊지 못할 추억이 될 것입니다."
+
+#: .\g13app\templates\Strandhill.html:66 .\g13app\templates\Strandhill.html:130
+#: .\g13app\templates\Strandhill.html:191
+#: .\g13app\templates\Strandhill.html:268
+msgid ""
+"Are you looking for the ultimate spot to surf in Ireland? Well, guess what "
+"you've got it. Are you ready to explore the powerful waves of the Atlantic "
+"with our world class instructors?"
+msgstr ""
+"아일랜드에서 서핑을 할 수 있는 최고의 장소를 찾고 계십니까? 글쎄, 당신이 그것"
+"을가지고 무엇을 추측. 세계적인 수준의 강사 들과 함께 대서양의 강력한 파도를 "
+"탐험할 준비가 되셨나요?"
+
+#: .\g13app\templates\Strandhill.html:68 .\g13app\templates\Strandhill.html:133
+#: .\g13app\templates\Strandhill.html:194
+#: .\g13app\templates\Strandhill.html:278
+msgid ""
+"Are you and your friends willing to conquer top quality waves. There are "
+"many places to camp and stay the night by the yellow sand and crystal clear "
+"chilly water."
+msgstr ""
+"당신과 당신의 친구 들은 최고 품질의 파도를 정복 하고자 합니다. 야영 하 고 노"
+"란 모래와 맑은 쌀쌀한 물에 의해 밤을 머물 수 있는 많은 장소가 있다."
+
+#: .\g13app\templates\Strandhill.html:83 .\g13app\templates\Strandhill.html:148
+#: .\g13app\templates\Strandhill.html:205
+#: .\g13app\templates\Strandhill.html:290
+msgid ""
+"When it's time to relax you can see the beautiful landscape and experience "
+"the wildlife of the countryside. There are many luxurious and cheap "
+"restaurants all along the coast where you can go and sit down and have a "
+"feast."
+msgstr ""
+"휴식 시간이 되 면 아름 다운 풍경을 보고 시골의 야생 동물을 경험할 수 있습니"
+"다. 당신이가 서 앉아서 잔치를 할 수 있는 해안을 따라 많은 고급 스 럽 고 저렴 "
+"한 레스토랑이 있습니다."
+
+#: .\g13app\templates\Strandhill.html:85 .\g13app\templates\Strandhill.html:151
+#: .\g13app\templates\Strandhill.html:208 .\g13app\templates\index.html:86
+#: .\g13app\templates\index.html:154 .\g13app\templates\index.html:213
+msgid ""
+"The possibilities for you are endless and the memories to be made are "
+"waiting for you."
+msgstr ""
+"당신을 위한 가능성은 무한 하 고 만들 수 있는 추억이 당신을 기다리고 있습니다."
+
+#: .\g13app\templates\index.html:66 .\g13app\templates\index.html:131
+#: .\g13app\templates\index.html:194
+msgid ""
+" Book your ideal surfing holiday with us and immerse yourself in irish "
+"culture in multiple different locations scattered accross the emerald isle."
+msgstr ""
+"우리와 함께 당신의 이상적인 서핑 휴가를 예약 하 고 에메랄드 섬에 걸쳐 흩어져 "
+"여러 다른 위치에서 아일랜드 문화에 빠져."
+
+#: .\g13app\templates\index.html:68 .\g13app\templates\index.html:134
+#: .\g13app\templates\index.html:197
+msgid ""
+" Master the waves of the atlantic ocean along the west coast of Ireland and "
+"experience some of, if not the best surfing locations in world."
+msgstr ""
+"아일랜드 서해안을 따라 대서양의 파도를 마스터 하 고 세계 최고의 서핑 위치가 "
+"아닌 경우 일부를 경험 하십시오."
+
+#: .\g13app\templates\index.html:70 .\g13app\templates\index.html:137
+#: .\g13app\templates\index.html:200 .\g13app\templates\lahinch.html:73
+#: .\g13app\templates\lahinch.html:139 .\g13app\templates\lahinch.html:203
+msgid " Are you ready to dive in ?"
+msgstr "잠수 할 준비가 되셨습니까?"
+
+#: .\g13app\templates\index.html:84 .\g13app\templates\index.html:151
+#: .\g13app\templates\index.html:210
+msgid ""
+"When you are not surfing you can see beatiful locations scattered accross "
+"the landscape and experience the relaxed nightlife of the countryside, "
+"whether thats going off to the local pubs for a bite to eat and a few "
+"drinks, or camping out under the starts next to a fire."
+msgstr ""
+"당신이 서핑을 하지 않을 때 당신은 풍경에 흩어져 아름 다운 위치를 볼 수 있으"
+"며 시골의 편안한 나이트 라이프를 경험 하는 것은, 식사와 몇 가지 음료를 먹을 "
+"수 있는 현지 술집에가 고 있는지, 또는 화재 옆에 캠핑을 시작 합니다."
+
+#: .\g13app\templates\index.html:273 .\g13app\templates\index.html:297
+msgid "Ireland is one of the world's undiscovered wonders."
+msgstr "아일랜드는 세계에서 알려지지 않은 불가사의 중 하나입니다."
+
+#: .\g13app\templates\index.html:283
+msgid ""
+" Are you ready to discover Irelands prime surfing locations ?\n"
+"      \n"
+"                Book your ideal surfing holiday with us and immerse yourself "
+"in more. "
+msgstr ""
+"당신은이 레이 랜드 프라임 서핑 위치를 발견 할 준비가 되셨습니까?\n"
+"      \n"
+"우리와 함께 당신의 이상적인 서핑 휴가를 예약 하 고 더에 빠져. "
+
+#: .\g13app\templates\lahinch.html:65 .\g13app\templates\lahinch.html:131
+#: .\g13app\templates\lahinch.html:195
+msgid ""
+" Are you ready to travel to one of the most intense surfing locations in "
+"Ireland and experience all the atlantic has to throw at you.\n"
+"        Follow the road to surfing success and make your way to Lehinch."
+msgstr ""
+"아일랜드에서 가장 강렬한 서핑 장소 중 한 곳으로 여행 할 준비가 되셨으며 대서"
+"양이 여러분에게 던져야 할 모든 것을 경험하십시오.\n"
+"        성공적인 서핑을 즐기고 Lehinch로가는 길을 따라 가십시오."
+
+#: .\g13app\templates\lahinch.html:69 .\g13app\templates\lahinch.html:135
+#: .\g13app\templates\lahinch.html:199
+msgid ""
+" Can you and your friends reach your surfing potential by working and "
+"learning together amidst the multitude of surfing locations and clubs \n"
+"        that will help you master your skills on the waves. "
+msgstr ""
+"다양한 서핑 장소와 클럽에서 함께 일하고 공부함으로써 당신과 당신의 친구들이 "
+"당신의 서핑 잠재력에 도달 할 수 있습니까?\n"
+"        파도에 대한 기술을 습득하는 데 도움이 될 것입니다."
+
+#: .\g13app\templates\lahinch.html:87
+msgid ""
+"Surfing in Lehinch could be the next step for reaching the next level in "
+"your surfing journey, if you can handle the full\n"
+"          full force of the Atlantic's strong waves and chilling waters. "
+"Celebrate your succesful days of surfing by exploring the many other sites "
+"such as the Cliffs of Moher situated nearby, or Celebrate\n"
+"         in the many pubs,bars and resteraunts ,that will help fuel you for "
+"the next days set of waves forever coming your way."
+msgstr ""
+"Lehinch에서 서핑을 즐기는 것은 서핑 여정에서 다음 단계에 도달하기위한 다음 단"
+"계가 될 수 있습니다.\n"
+"          대서양의 강렬한 파도와 물결 가득한 힘. 근처에 위치한 Moher 절벽이"
+"나 Celebrate와 같은 많은 다른 장소를 탐험하여 서핑의 성공적인 날을 축하하십시"
+"오.\n"
+"         많은 술집, 술집 및 resteraunts에서, 그것은 당신의 길을 영원히 오는 "
+"파도의 다음날 세트를 위해 당신을 연료로 도움이 될 것입니다."
+
+#: .\g13app\templates\lahinch.html:153 .\g13app\templates\lahinch.html:213
+msgid ""
+"Surfing in Lehinch could be the next step for reaching the next level in "
+"your surfing journey, if you can handle the full\n"
+"          full force of the Atlantic's strong waves and chilling waters"
+msgstr ""
+"Lehinch에서 서핑을 즐기는 것은 서핑 여정에서 다음 단계에 도달하기위한 다음 단"
+"계가 될 수 있습니다.\n"
+"          대서양의 강렬한 파도와 물결 가득한 힘. 근처에 위치한 Moher 절벽이"
+"나 Celebrate와 같은 많은 다른 장소를 탐험하여 서핑의 성공적인 날을 축하하십시"
+"오.\n"
+"         많은 술집, 술집 및 resteraunts에서, 그것은 당신의 길을 영원히 오는 "
+"파도의 다음날 세트를 위해 당신을 연료로 도움이 될 것입니다."
+
+#: .\g13app\templates\lahinch.html:157 .\g13app\templates\lahinch.html:217
+msgid ""
+"Celebrate your succesful days of surfing by exploring the many other sites "
+"such as the Cliffs of Moher situated nearby, or Celebrate\n"
+"         in the many pubs,bars and resteraunts ,that will help fuel you for "
+"the next days set of waves forever coming your way."
+msgstr ""
+"Lehinch에서 서핑을 즐기는 것은 서핑 여정에서 다음 단계에 도달하기위한 다음 단"
+"계가 될 수 있습니다.\n"
+"          대서양의 강렬한 파도와 물결 가득한 힘. 근처에 위치한 Moher 절벽이"
+"나 Celebrate와 같은 많은 다른 장소를 탐험하여 서핑의 성공적인 날을 축하하십시"
+"오.\n"
+"         많은 술집, 술집 및 resteraunts에서, 그것은 당신의 길을 영원히 오는 "
+"파도의 다음날 세트를 위해 당신을 연료로 도움이 될 것입니다."
+
+#: .\g13app\templates\lahinch.html:277
+msgid ""
+"Are you ready to travel to one of the most intense surfing locations in "
+"Ireland and experience all the atlantic has to throw at you.\n"
+"              Follow the road to surfing success and make your way to "
+"Lehinch."
+msgstr ""
+"아일랜드에서 가장 강렬한 서핑 장소 중 한 곳으로 여행 할 준비가 되셨으며 대서"
+"양이 여러분에게 던져야 할 모든 것을 경험하십시오.\n"
+"        성공적인 서핑을 즐기고 Lehinch로가는 길을 따라 가십시오."
+
+#: .\g13app\templates\lahinch.html:288
+msgid ""
+"Can you and your friends reach your surfing potential by working and "
+"learning together amidst the multitude of surfing locations and clubs \n"
+"              that will help you master your skills on the waves."
+msgstr ""
+"다양한 서핑 장소와 클럽에서 함께 일하고 공부함으로써 당신과 당신의 친구들이 "
+"당신의 서핑 잠재력에 도달 할 수 있습니까?\n"
+"        파도에 대한 기술을 습득하는 데 도움이 될 것입니다."
+
+#: .\g13app\templates\lahinch.html:301
+#, fuzzy
+#| msgid ""
+#| "Surfing in Lehinch could be the next step for reaching the next level in "
+#| "your surfing journey, if you can handle the full\n"
+#| "                full force of the Atlantic's strong waves and chilling "
+#| "waters. Celebrate your succesful days of surfing by exploring the many "
+#| "other sites such as the Cliffs of Moher situated nearby, or Celebrate\n"
+#| "              in the many pubs,bars and resteraunts ,that will help fuel "
+#| "you for the next days set of waves forever coming your way."
+msgid ""
+"Surfing in Lehinch could be the next step for reaching the next level in "
+"your surfing journey, if you can handle the full\n"
+"                full force of the Atlantic's strong waves and chilling "
+"waters. Celebrate your succesful days of surfing by exploring the many other "
+"sites such as the Cliffs of Moher situated nearby, or Celebrate\n"
+"              in the many pubs,bars and restaurants ,that will help fuel you "
+"for the next days set of waves forever coming your way."
+msgstr ""
+"Lehinch에서 서핑을 즐기는 것은 서핑 여정에서 다음 단계에 도달하기위한 다음 단"
+"계가 될 수 있습니다.\n"
+"          대서양의 강렬한 파도와 물결 가득한 힘. 근처에 위치한 Moher 절벽이"
+"나 세상에 알리다와 같은 많은 다른 장소를 탐험하여 서핑의 성공적인 날을 축하하"
+"십시오.\n"
+"         많은 술집, 술집 및 레스토랑 에서, 그것은 당신의 길을 영원히 오는 파"
+"도의 다음날 세트를 위해 당신을 연료로 도움이 될 것입니다."
+
+#~ msgid ""
+#~ " \"Are you ready to discover Irelands prime surfing locations ?\n"
+#~ "      \n"
+#~ "                Book your ideal surfing holiday with us and immerse "
+#~ "yourself in more.\" "
+#~ msgstr ""
+#~ "당신은이 레이 랜드 프라임 서핑 위치를 발견 할 준비가 되셨습니까?\n"
+#~ "      \n"
+#~ "우리와 함께 당신의 이상적인 서핑 휴가를 예약 하 고 더에 빠져. "

@@ -1,0 +1,323 @@
+{% load i18n %}
+
+{% load static %}
+{% get_language_info for LANGUAGE_CODE as lang %}
+
+
+<DOCTYPE html>
+  <html>
+    <head>
+      <meta charset= "utf-8">
+      <title>Travel Ireland Proj</title>
+       <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/g13.css' %}">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	<script>function toggleSidebar(){
+  document.getElementById("sidebar").classList.toggle('active');}</script>
+    </head>  
+    <body>
+
+      {% if lang.code == "en" %}
+	<div id="sidebar">
+    <div class="toggle-btn" onclick="toggleSidebar()">
+  <span></span>
+  <span></span>
+  <span></span>
+  <h1>Group 13</h1>
+    </div>
+    <ul>
+      <li><a class="dropdown-item" href="http://127.0.0.1:8000/en/g13/">{% trans "Home"%}</a></li>
+      <li><a class="dropdown-item" href="{% url 'bally' %}">{% trans "Ballybunnion"%}</a></li>
+      <li><a class="dropdown-item" href="{% url 'bun' %}">{% trans "Bundoran"%}</a></li>
+      <li><a class="dropdown-item" href="{% url 'bell' %}">{% trans "Bellmullet"%}</a></li>
+      <li><a class="dropdown-item" href="{% url 'strand' %}">{% trans "Strandhill"%}</a></li>
+	  <li><a class="dropdown-item" href="http://127.0.0.1:8000/de/g13/lahinch">{% trans "German"%}</a></li>
+	  <li><a class="dropdown-item" href="http://127.0.0.1:8000/pl/g13/lahinch">{% trans "Polish"%}</a></li>
+	  <li><a class="dropdown-item" href="http://127.0.0.1:8000/ko/g13/lahinch">{% trans "Korean"%}</a></li>
+
+            
+         
+  </div>
+  <div id="wrapper">
+    <header>
+      
+    </header>
+</div>
+      <div id= "main_body">
+        <h2>{% trans "Welcome"%}</h2>
+        <hr>
+          <div class="image1_container">
+            <div class="container">
+              {% load static %}
+              <img src="{% static 'media/img/surfing_img3.jpg' %}" alt="surfing" class="image"><!--Change photos to adapt to your persona-->
+              <div class="overlay">
+                <div class="text">{% trans "Surf accross Ireland"%}</div>
+              </div><!--Image: text overlay animation-->
+          </div>
+            <div id="image1_text">
+              <!--Change text to adapt to your page-->
+              <p>
+        {% blocktrans %} Are you ready to travel to one of the most intense surfing locations in Ireland and experience all the atlantic has to throw at you.
+        Follow the road to surfing success and make your way to Lehinch.{% endblocktrans %}
+        <br>
+        <br>
+        {% blocktrans %} Can you and your friends reach your surfing potential by working and learning together amidst the multitude of surfing locations and clubs 
+        that will help you master your skills on the waves. {% endblocktrans %}
+        <br>
+        <br>
+        {% blocktrans %} Are you ready to dive in ?{% endblocktrans %}</p>
+        </div>
+      </div>
+        <hr>
+        
+        <div class="image1_container">
+          <div class="container">
+              {% load static %}
+              <img src="{% static 'media/img/Bonfire.jpg' %}" alt="surfing" class="image"><!--Change photos to adapt to your persona-->
+            <div class="overlay">
+              <div class="text">{% trans "Experience Irish Culture"%}</div><!--Image: text overlay animation-->
+            </div>
+          </div>
+           <div id="image_text">
+			  <p> {% blocktrans %}Surfing in Lehinch could be the next step for reaching the next level in your surfing journey, if you can handle the full
+          full force of the Atlantic's strong waves and chilling waters. Celebrate your succesful days of surfing by exploring the many other sites such as the Cliffs of Moher situated nearby, or Celebrate
+         in the many pubs,bars and resteraunts ,that will help fuel you for the next days set of waves forever coming your way.{% endblocktrans %}
+			  </p>
+		</div>
+        </div>
+        {% endif %}
+        {% if lang.code == "de" %}
+      <div id="sidebar">
+    <div class="toggle-btn" onclick="toggleSidebar()">
+  <span></span>
+  <span></span>
+  <span></span>
+  <h1>Group 13</h1>
+    </div>
+    <ul>
+      <li><a class="dropdown-item" href="http://127.0.0.1:8000/de/g13/">{% trans "Home"%}</a></li>
+      <li><a class="dropdown-item" href="{% url 'bally' %}">{% trans "Ballybunnion"%}</a></li>
+      <li><a class="dropdown-item" href="{% url 'bun' %}">{% trans "Bundoran"%}</a></li>
+      <li><a class="dropdown-item" href="{% url 'bell' %}">{% trans "Bellmullet"%}</a></li>
+      <li><a class="dropdown-item" href="{% url 'strand' %}">{% trans "Strandhill"%}</a></li>
+	  <li><a class="dropdown-item" href="http://127.0.0.1:8000/en/g13/lahinch">{% trans "English"%}</a></li>
+	  <li><a class="dropdown-item" href="http://127.0.0.1:8000/pl/g13/lahinch">{% trans "Polish"%}</a></li>
+	  <li><a class="dropdown-item" href="http://127.0.0.1:8000/ko/g13/lahinch">{% trans "Korean"%}</a></li>
+  </div>
+  <div id="wrapper">
+    <header>
+      
+    </header>
+</div>
+      <div id= "main_body">
+        <h2>{% trans "Welcome"%}</h2>
+        <hr>
+          <div class="image1_container">
+            <div class="container">
+                {% load static %}
+                <img src="{% static 'media/img/surfing_img3.jpg' %}" alt="surfing" class="image"><!--Change photos to adapt to your persona-->
+              <div class="overlay">
+                <div class="text">{% trans "Surf accross Ireland"%}</div>
+              </div><!--Image: text overlay animation-->
+          </div>
+            <div id="image1_text">
+              <!--Change text to adapt to your page-->
+              <p>
+        {% blocktrans %} Are you ready to travel to one of the most intense surfing locations in Ireland and experience all the atlantic has to throw at you.
+        Follow the road to surfing success and make your way to Lehinch.{% endblocktrans %}
+        <br>
+        <br>
+        {% blocktrans %} Can you and your friends reach your surfing potential by working and learning together amidst the multitude of surfing locations and clubs 
+        that will help you master your skills on the waves. {% endblocktrans %}
+        <br>
+        <br>
+        {% blocktrans %} Are you ready to dive in ?{% endblocktrans %}</p>
+        </div>
+      </div>
+        <hr>
+        
+        <div class="image1_container">
+          <div class="container">
+              {% load static %}
+              <img src="{% static 'media/img/Bonfire.jpg' %}" alt="surfing" class="image"><!--Change photos to adapt to your persona-->
+            <div class="overlay">
+              <div class="text">{% trans "Experience Irish Culture"%}</div><!--Image: text overlay animation-->
+            </div>
+          </div>
+           <div id="image_text">
+			  <p> {% blocktrans %}Surfing in Lehinch could be the next step for reaching the next level in your surfing journey, if you can handle the full
+          full force of the Atlantic's strong waves and chilling waters{% endblocktrans %}
+			  <br>
+			  <br>
+			   {% blocktrans %}Celebrate your succesful days of surfing by exploring the many other sites such as the Cliffs of Moher situated nearby, or Celebrate
+         in the many pubs,bars and resteraunts ,that will help fuel you for the next days set of waves forever coming your way.{% endblocktrans %}
+			  </p>
+		</div>
+        </div>
+        {% endif %}
+        {% if lang.code == "pl" %}
+		 <div id="wrapper">
+    <header>
+      
+    </header>
+	<nav>
+          <ul class = "main_menu">
+            <li><a href="http://127.0.0.1:8000/pl/g13/">{% trans "Home" %}</a></li>
+      <li><a  href="{% url 'bally' %}">{% trans "Ballybunnion" %}</a></li>
+      <li><a  href="{% url 'bun' %}">{% trans "Bundoran" %}</a></li>
+      <li><a href="{% url 'bell' %}">{% trans "Bellmullet" %}</a></li>
+      <li><a href="{% url 'strand' %}">{% trans "Strandhill" %}</a></li>
+	  <li><a  href="http://127.0.0.1:8000/en/g13/lahinch">{% trans "English" %}</a></li>
+	  <li><a  href="http://127.0.0.1:8000/de/g13/lahinch">{% trans "German" %}</a></li>
+	  <li><a  href="http://127.0.0.1:8000/ko/g13/lahinch">{% trans "Korean" %}</a></li>
+          </ul>
+        </nav>
+      </div>
+        <div id= "main_body">
+          <h2>{% trans "Welcome"%}</h2>
+          <hr>
+            <div class="polskcontainer2">
+            <div class="containerpl">
+                {% load static %}
+                <img src="{% static 'media/img/surfing_img3.jpg' %}" alt="surfing" class="imagepl1"><!--Change photos to adapt to your persona-->
+              <div class="overlay">
+                <div class="text">{% trans "Surf accross Ireland"%}</div>
+              </div><!--Image: text overlay animation-->
+          </div>
+            <div id="image1_textpl">
+              <!--Change text to adapt to your page-->
+              <p>
+        {% blocktrans %} Are you ready to travel to one of the most intense surfing locations in Ireland and experience all the atlantic has to throw at you.
+        Follow the road to surfing success and make your way to Lehinch.{% endblocktrans %}
+        <br>
+        <br>
+        {% blocktrans %} Can you and your friends reach your surfing potential by working and learning together amidst the multitude of surfing locations and clubs 
+        that will help you master your skills on the waves. {% endblocktrans %}
+        <br>
+        <br>
+        {% blocktrans %} Are you ready to dive in ?{% endblocktrans %}</p>
+        </div>
+      </div>
+        <hr>
+        
+        <div class="polskcontainer">
+          <div class="containerpl">
+              {% load static %}
+              <img src="{% static 'media/img/Bonfire.jpg' %}" alt="surfing" class="imagepl2"><!--Change photos to adapt to your persona-->
+           <div id="image_textpl">
+			  <p> {% blocktrans %}Surfing in Lehinch could be the next step for reaching the next level in your surfing journey, if you can handle the full
+          full force of the Atlantic's strong waves and chilling waters{% endblocktrans %}
+			  <br>
+			  <br>
+			   {% blocktrans %}Celebrate your succesful days of surfing by exploring the many other sites such as the Cliffs of Moher situated nearby, or Celebrate
+         in the many pubs,bars and resteraunts ,that will help fuel you for the next days set of waves forever coming your way.{% endblocktrans %}
+			  </p>
+		</div>
+        </div>
+        {% endif %}
+        {% if lang.code == "ko" %}
+		<div id="wrapper">
+    <header>
+      
+    </header>
+	<nav>
+          <ul class = "main_menu">
+            <li><a href="http://127.0.0.1:8000/ko/g13/">{% trans "Home" %}</a></li>
+      <li><a  href="{% url 'bally' %}">{% trans "Ballybunnion" %}</a></li>
+      <li><a  href="{% url 'bun' %}">{% trans "Bundoran" %}</a></li>
+      <li><a href="{% url 'bell' %}">{% trans "Bellmullet" %}</a></li>
+      <li><a href="{% url 'strand' %}">{% trans "Strandhill" %}</a></li>
+	  <li><a  href="http://127.0.0.1:8000/en/g13/lahinch">{% trans "English" %}</a></li>
+	  <li><a  href="http://127.0.0.1:8000/de/g13/lahinch">{% trans "German" %}</a></li>
+	  <li><a  href="http://127.0.0.1:8000/pl/g13/lahinch">{% trans "Polish" %}</a></li>
+          </ul>
+        </nav>
+      </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="{% static 'media/img/Surfywurfywoo.jpg' %}" alt="First slide" height="600" width="800">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="{% static 'media/img/SurfDude.jpg' %}" alt="Second slide" height="600" width="800">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="{% static 'media/img/GoodSurfing.png' %}" alt="Third slide" height="600" width="800">
+          </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">{% trans "Previous" %}</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">{% trans "Next" %}</span>
+          </a>
+        </div>
+        <hr/>
+      
+      
+        <hr/>
+        <div class="card-group">
+          <a  href="pg1.html">
+           <img class="card-img-top" src="{% static 'media/img/Surfing_lady.jpg' %}" alt="Card image cap" height="600" width="200" href="pg1.html" style="margin-left: 10px;" >
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">{% trans "Go Explore" %}</h5>
+            <p class="card-text"> {% blocktrans %}Are you ready to travel to one of the most intense surfing locations in Ireland and experience all the atlantic has to throw at you.
+              Follow the road to surfing success and make your way to Lehinch.{% endblocktrans %}</p>
+          </div>
+          </div>
+          <hr/>
+        <div class="card-group">
+          <a  href="pg1.html">
+           <img class="card-img-top" src="{% static 'media/img/Lahinch.jpg' %}" alt="Card image cap" height="600" width="200" href="pg1.html" style="margin-left: 20px;">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title" style="margin-left: 20px;" >{% trans "Surf Across Ireland"%}</h5>
+            <p class="card-text" style="margin-left: 40px;">{% blocktrans %}Can you and your friends reach your surfing potential by working and learning together amidst the multitude of surfing locations and clubs 
+              that will help you master your skills on the waves.{% endblocktrans %}
+        </p>
+          </div>
+          </div>
+          
+        <hr/>
+        <div class="card-group">
+          <a  href="pg1.html">
+           <img class="card-img-top" src="{% static 'media/img/Lehinch_sign.jpg' %}" alt="Card image cap" height="600" width="200" href="pg1.html" style="margin-left: 20px;">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title" style="margin-left: 20px;"></h5>
+            <p class="card-text" style="margin-left: 40px;">{% blocktrans %}Surfing in Lehinch could be the next step for reaching the next level in your surfing journey, if you can handle the full
+                full force of the Atlantic's strong waves and chilling waters. Celebrate your succesful days of surfing by exploring the many other sites such as the Cliffs of Moher situated nearby, or Celebrate
+              in the many pubs,bars and restaurants ,that will help fuel you for the next days set of waves forever coming your way.{% endblocktrans %}</p>
+          </div>
+          
+          </div>
+          </div>
+         
+        {% endif %}
+		
+        <div class="footer">
+		<!-- Add font awesome icons -->
+		<a href="http://facebook.com" class="fa fa-facebook"></a>
+		<a href="http://twitter.com" class="fa fa-twitter"></a>
+		<a href="http://instagram.com" class="fa fa-instagram"></a>
+    	<a href="http://youtube.com" class="fa fa-youtube"></a>
+   </div>
+    	<p class="bottom"></p>
+        </body>
+
+      </html>
+    </DOCTYPE >
+
